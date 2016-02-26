@@ -10,7 +10,7 @@
         }
     ],
     "require":{
-        "colinmollenhour/credis":"~1.6",
+        "connect20/lib_credis":"1.9.2.4",
         "magento-hackathon/magento-composer-installer":"*"
     }
 }
