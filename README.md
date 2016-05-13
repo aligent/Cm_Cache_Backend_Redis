@@ -17,25 +17,26 @@ Works with any Zend Framework project including all versions of Magento!
 
 ## INSTALLATION (Magento via composer)
 ```
- "repositories": [
-                                                  {
-                                                    "type": "vcs",
-                                                    "url": "git@github.com:aligent/Cm_RedisSession.git"
-                                                  },
-                                                  {
-                                                    "type": "vcs",
-                                                    "url": "git@github.com:aligent/Cm_Cache_Backend_Redis.git"
-                                                  },
-                                                  {
-                                                    "type": "vcs",
-                                                    "url": "git@github.com:aligent/credis.git"
-                                                  }
-                                                ],
+ "repositories": 
+ [
+  {
+    "type": "vcs",
+    "url": "git@github.com:aligent/Cm_RedisSession.git"
+  },
+  {
+    "type": "vcs",
+    "url": "git@github.com:aligent/Cm_Cache_Backend_Redis.git"
+  },
+  {
+    "type": "vcs",
+    "url": "git@github.com:aligent/credis.git"
+  }
+],
 ```
  1. change your `composer.json` to include above repositories. 
  2. `github.com:aligent/Cm_RedisSession` is optional
  3. In require add something like
- ```"require": {        
+ ```"require": {
         "colinmollenhour/cache-backend-redis": "~3.1.0",
         "colinmollenhour/redis-session": "~3.1.0"
       },```
